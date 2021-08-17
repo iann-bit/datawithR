@@ -6,3 +6,4 @@
 > # from a type of factor to 1s, 2s, or 3s. The bg vector will then be applied to the corresponding species, which has been unclassed. This makes each different species of 
 > # iris appear as a different color on the graph.
 > # Lastly, "main" will make the string that follows it the title of the plot.
+> # This is adapted from code by Peter Cock at https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_plots/#plot.
