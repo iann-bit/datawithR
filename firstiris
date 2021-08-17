@@ -1,0 +1,8 @@
+> iris
+> plot(iris$Petal.Length, iris$Petal.Width, pch = 22, bg = c("red", "green3", "blue")[unclass(iris$Species)], main = "Edgar Anderson's Iris Data")
+> # This code will load the "iris" data set that is included in R, and will plot the petal length and the petal width along the x and y axes, respectively.
+> # pch stands for plot character, and the number corresponds to a certain shape. In this case, 22 will make the plot characters squares. 
+> # bg determines the fill color of each character, and stands for background. The three colors are entered as a vector. By "unclassing" the species of iris, we change them
+> # from a type of factor to 1s, 2s, or 3s. The bg vector will then be applied to the corresponding species, which has been unclassed. This makes each different species of 
+> # iris appear as a different color on the graph.
+> # Lastly, "main" will make the string that follows it the title of the plot.
